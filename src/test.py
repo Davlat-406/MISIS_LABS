@@ -1,0 +1,1 @@
+print ('hello word,\nhello word,\nhello word')
