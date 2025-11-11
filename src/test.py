@@ -1,1 +1,1 @@
-print ('hello word,\nhello word,\nhello wordфываыфаыфваыфваыф')
+print ('ыфваыфвasfadаыф')
