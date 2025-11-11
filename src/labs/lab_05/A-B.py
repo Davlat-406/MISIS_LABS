@@ -20,7 +20,7 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
     with open(json_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # ПРОСТЫЕ REPLACE чтобы пофиксить JSON
+    # фиксса JSON
     content = content.replace('﻿', '')  # убираем BOM
     content = content.replace('" "', '"')  # убираем пробелы в ключах
     content = content.replace('}\n\n  {', '},\n  {')  # добавляем запятые между объектами
