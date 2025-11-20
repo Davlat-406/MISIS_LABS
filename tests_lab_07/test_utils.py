@@ -2,7 +2,7 @@ import pytest
 import json
 import csv
 from pathlib import Path
-from labs.lab_07.lib_02 import *
+from lib_02 import *
 Normailize_Test = [
         ("ПрИвЕт \nМИр\t", "привет мир"),
         ("ёжик, Ёлка", "ежик, елка"),
