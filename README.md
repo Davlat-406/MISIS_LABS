@@ -10,3 +10,7 @@
 ![Лабораторная №5](https://github.com/Davlat-406/MISIS_LABS/blob/main/src/labs/lab_05/README.md)
 
 ![Лабораторная №6](https://github.com/Davlat-406/MISIS_LABS/blob/main/src/labs/lab_06/README.md)
+
+![Лабораторная №7](https://github.com/Davlat-406/MISIS_LABS/blob/main/src/labs/lab_07/README.md)
+
+
