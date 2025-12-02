@@ -1,7 +1,0 @@
-rows = int(input("Введите количество строк"))
-columns = int(input("Введите количество колонок"))
-empty_matrix = [[0] * rows for e in range(columns)]
-
-for element in empty_matrix:
-    element[2] = 3
-print(empty_matrix)
