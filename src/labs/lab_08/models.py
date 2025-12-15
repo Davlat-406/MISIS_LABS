@@ -32,14 +32,13 @@ class Student:
                 "group": self.group,
                 "gpa": self.gpa }
     @classmethod
-    def from_dict(cls, data: dict ):
+    def from_dict(cls, data: dict):
         return cls(
             fio = data["fio"],
             birthdate = data["birthdate"],
             group = data["group"],
-            gpa = data["gpa"]
+            gpa = float(data["gpa"])  # ← ДОБАВЬ float() ЗДЕСЬ!
         )
 
     def __str__ (self):
         return f"Студент: {self.fio}, группа: {self.group}, возраст: {self.age()} лет, средний балл: {self.gpa}"
-
